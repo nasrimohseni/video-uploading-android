@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/theImage"
+        android:layout_width="156dp"
+        android:layout_height="154dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/the_uploaded_image_preview"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:src="@mipmap/ic_launcher"
+        tools:ignore="MissingConstraints"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="286dp"
+        android:layout_below="@id/theImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/btnChoose"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

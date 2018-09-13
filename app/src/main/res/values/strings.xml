@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FileUploaderApp</string>
+    <string name="the_uploaded_image_preview">The Uploaded Image Preview</string>
+    <string name="choose">Choose</string>
+    <string name="upload">Upload</string>
+</resources>
